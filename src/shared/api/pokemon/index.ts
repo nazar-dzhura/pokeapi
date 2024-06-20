@@ -1,0 +1,1 @@
+export { useFetchPokemonsQuery, useFetchPokemonByNameQuery } from './pokemon';
