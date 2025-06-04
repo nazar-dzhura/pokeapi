@@ -26,7 +26,7 @@ export const PokemonsGrid: React.FC = () => {
     return <List
         grid={{gutter: 16, column: 4, xs: 1, sm: 1, md: 2, lg: 3, xl: 4, xxl: 4}}
         dataSource={pokemons}
-        locale={{emptyText: <Empty description={`There are no any pokemons.`} />}}
+        locale={{emptyText: <Empty description={`There are no pokemons.`} />}}
         loading={{spinning: isFetching, tip: 'Loading pokemons...'}}
         pagination={{
             onChange: onPageChange,
